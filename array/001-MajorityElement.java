@@ -13,4 +13,5 @@ public class MajorityElement{
     int result = majorityElement(array);
     System.out.print(result);
   }
+
 }
