@@ -1,4 +1,4 @@
-public class TrappingWater {
+public class TrappingRainWater {
     public int trap(int[] height) {
         int leftMaxBoundary[] = new int[height.length];
         int rightMaxBoundary[] = new int[height.length];
@@ -35,10 +35,11 @@ public class TrappingWater {
     }
 
     public static void main(String args[]){
-        TrappingWater sol = new TrappingWater(); 
+        TrappingRainWater sol = new TrappingRainWater(); 
         int array[] = {0,1,0,2,1,0,1,3,2,1,2,1};
         int result = sol.trap(array);   
         System.out.println(result);
     }
 
 }
+
