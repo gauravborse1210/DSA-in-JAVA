@@ -7,13 +7,12 @@ class Solution {
 
         for(int i = 0; i < nums.length; i++){
             curSum += nums[i];
-             maxSum = Math.max(maxSum, curSum);
+            maxSum = Math.max(maxSum, curSum);
             if(curSum < 0){
                 curSum = 0;
             }
         }
-    
-
         return maxSum;
     }
 }
+
