@@ -20,4 +20,5 @@ class SquaresOfSortedArray {
         return sortedArr;
         
     }
+
 }
