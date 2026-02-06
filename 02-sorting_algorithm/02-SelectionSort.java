@@ -23,3 +23,4 @@ public class SelectionSort {
     System.out.print(Arrays.toString(selectionSort(array)));
   }
 }
+
