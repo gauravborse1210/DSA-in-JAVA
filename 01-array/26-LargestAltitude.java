@@ -7,7 +7,7 @@ class Solution {
             currentAltitude += gain[i];
             maxAltitude = Math.max(maxAltitude, currentAltitude);
         }
-        
+
         return maxAltitude;
     }
 }
