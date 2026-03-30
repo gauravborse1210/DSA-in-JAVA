@@ -24,8 +24,8 @@ class Solution {
         }
 
         int removeNodeIndex = size - n;
-        ListNode prev = head;
         int i = 1;
+        ListNode prev = head;
 
         while(i < removeNodeIndex){
             prev = prev.next;
