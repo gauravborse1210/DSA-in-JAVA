@@ -20,7 +20,9 @@ public class duplicateParenthesis {
         return true;
       }else{
         s.pop();
-      }     
+      } 
+
+    // Opening    
     }else{
       s.push(ch);
     }
