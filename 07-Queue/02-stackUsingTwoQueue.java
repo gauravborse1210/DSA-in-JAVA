@@ -62,8 +62,7 @@ class MyStack {
         }
 
         return top;
-    }
-    
+    } 
     public boolean empty() {
         return q1.isEmpty() && q2.isEmpty();
     }
