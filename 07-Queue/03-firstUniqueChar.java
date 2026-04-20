@@ -13,7 +13,6 @@ class Solution {
             }
             
         }
-
         return q.isEmpty() ? -1 : s.indexOf(q.peek());
     }
 }
