@@ -1,27 +1,18 @@
-public class Anagram {
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) return false;
 
-  public static boolean AnagramString(String str1, String str2){
-    boolean isAnagram = false;
+        int[] count = new int[26];
 
-     if(str1.length() != str2.length()){
-        isAnagram = false;
-      }
-
-    for(int i = 0; i < str1.length(); i++){
-      for(int j = 0; j < str2.length(); j++){
-        if(str1.charAt(i) == str2.charAt(j)){
-          isAnagram = true;
-          break;
+        for (int i = 0; i < s.length(); i++) {
+            count[s.charAt(i) - 'a']++;
+            count[t.charAt(i) - 'a']--;
         }
-      }
+
+        for (int c : count) {
+            if (c != 0) return false;
+        }
+
+        return true;
     }
-    return isAnagram;
-  }
-
-  public static void main(String args[]){
-    String str1 = "race";
-    String str2 = "care";
-    System.out.print(AnagramString(str1, str2));
-  }
 }
-
