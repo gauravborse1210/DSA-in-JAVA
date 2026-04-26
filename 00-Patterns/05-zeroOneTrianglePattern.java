@@ -1,6 +1,4 @@
 public class zeroOneTrianglePattern {
-
-
   public static void zero_one_triangle_pattern(int n){
     for(int i = 0; i <= n; i++) {
       for(int j = 0; j <= i; j++) {
