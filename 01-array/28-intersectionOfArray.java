@@ -7,7 +7,7 @@ class Solution {
 
        for(int i=0;i<n;i++) {
             set.add(nums1[i]);
-        }
+        } 
         List<Integer> helper = new ArrayList<>();
 
         for(int i = 0; i<m;i++) {
