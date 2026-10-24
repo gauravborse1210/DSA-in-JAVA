@@ -18,7 +18,6 @@ class Solution {
 
         n = sum;
       }
-
       return false;
     }
 }
